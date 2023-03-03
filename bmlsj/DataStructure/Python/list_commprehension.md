@@ -22,15 +22,15 @@
 **딕셔너리**
 ```python
     a = {}
-    for key, value in original.items():
+    for key, value in a.items():
             a[key] = value
     
     # 리스트 컴프리헨션 사용할 경우
-    a = {key, value in original.items()}
+    a = {key, value in a.items()}
 ```
 </br>
 
-## 제너레이터(Generagor)
+## 제너레이터(Generator)
 루프의 반복 동작을 제어할 수 있는 루틴 형태<br>
 ``` yield``` 구문(여기까지 실행 중이던 값을 내보낸다)을 사용해 제너레이터를 리턴
 
